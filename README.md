@@ -1,13 +1,3 @@
-# Densefuse: A Fusion Approach to Infrared and Visible Images - Tensorflow
-
-[Hui Li](https://hli1221.github.io/), Xiao-Jun Wu*  
-Published in: IEEE Transactions on Image Processing
-
-*H. Li, X. J. Wu, “DenseFuse: A Fusion Approach to Infrared and Visible Images,” IEEE Trans. Image Process., vol. 28, no. 5, pp. 2614–2623, May. 2019.*
-
-- [IEEEXplore](https://ieeexplore.ieee.org/document/8580578)
-- [arXiv](https://arxiv.org/abs/1804.08361)
-
 
 ## Note
 In 'main.py' file, you will find how to run these codes.
@@ -15,7 +5,7 @@ In 'main.py' file, you will find how to run these codes.
 The evaluate methods which used in our paper are shown in 'analysis_MatLab'. And these methods are implemented by MatLab.
 
 ## Abstract
-In this paper, we present a novel deep learning architecture for infrared and visible images fusion problem. 
+In this thesis, we present a novel deep learning architecture for infrared and visible images fusion problem. 
 
 In contrast to conventional convolutional networks, our encoding network is combined by convolutional neural network layer and dense block which the output of each layer is connected to every other layer. We attempt to use this architecture to get more useful features from source images in encoder process. Then appropriate fusion strategy is utilized to fuse these features. Finally, the fused image is reconstructed by decoder. 
 
@@ -51,28 +41,4 @@ Hwang S, Park J, Kim N, et al. Multispectral pedestrian detection: Benchmark dat
 
 ### Multi-focus images(RGB)
 ![](https://github.com/hli1221/imagefusion_densefuse/blob/master/figures/fused_color.png)
-
-If you have any question about this code, feel free to reach me(hui_li_jnu@163.com, lihui.cv@jiangnan.edu.cn)
-
-
-# Citation
-
- *H. Li, X. J. Wu, “DenseFuse: A Fusion Approach to Infrared and Visible Images,” IEEE Trans. Image Process., vol. 28, no. 5, pp. 2614–2623, May 2019.*
-
-```
-@article{li2018densefuse,
-  title={DenseFuse: A Fusion Approach to Infrared and Visible Images},
-  author={Li, Hui and Wu, Xiao-Jun},
-  journal={IEEE Transactions on Image Processing},
-  volume={28},
-  number={5},
-  pages={2614--2623},
-  month={May},
-  year={2019},
-  publisher={IEEE}
-}
-```
-
-
-## Pytorch version is available at [here](https://github.com/hli1221/densefuse-pytorch) (FOR REFERENCE ONLY)
 
